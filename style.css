@@ -27,9 +27,13 @@
   --color-Very-Dark-Cyan: hsl(192, 100%, 9%);
   --color-Grayish-Blue: hsl(208, 11%, 55%);
 }
+header {
+  font-family: "Poppins", sans-serif;
+}
 html {
   font-size: var(--size-10);
 }
 body {
+  font-family: "Open Sans", sans-serif;
   font-size: var(--size-18);
 }
