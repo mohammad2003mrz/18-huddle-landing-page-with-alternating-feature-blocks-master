@@ -24,7 +24,7 @@
   --size-512: 51.2rem;
   /*  color */
   --color-Pink: hsl(322, 100%, 66%);
-  --color-Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --color-Very-Pale-Cyan: hsl(41, 100%, 97%);
   --color-Very-Dark-Cyan: hsl(192, 100%, 9%);
   --color-Grayish-Blue: hsl(208, 11%, 55%);
   /*  gen  */
@@ -71,4 +71,14 @@ header {
 }
 .logo-header {
   width: var(--size-128);
+}
+.btn-nav {
+  display: inline-block;
+  padding: var(--size-12) var(--size-48);
+  text-decoration: none;
+}
+.btn-nav:is(:link, :visited) {
+  background-color: var(--color-Very-Pale-Cyan);
+  box-shadow: 0 var(--size-6) var(--size-12) rgba(0, 0, 0, 0.15);
+  border-radius: var(--size-32);
 }
