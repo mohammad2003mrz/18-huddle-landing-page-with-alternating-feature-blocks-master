@@ -24,6 +24,7 @@
   --size-512: 51.2rem;
   /*  color */
   --color-Pink: hsl(322, 100%, 66%);
+  --color-white: hsl(0, 0%, 100%);
   --color-Very-Pale-Cyan: hsl(41, 100%, 97%);
   --color-Very-Dark-Cyan: hsl(192, 100%, 9%);
   --color-black: hsl(0, 0%, 4%);
@@ -71,7 +72,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: var(--size-32);
-  width: 80%;
+  width: 90%;
+
+  align-items: flex-start;
 }
 .logo-header {
   width: var(--size-128);
@@ -87,4 +90,22 @@ header {
   border-radius: var(--size-32);
   color: var(--color-black);
   font-size: var(--size-16);
+}
+.btn-head {
+  text-decoration: none;
+}
+.heading-dis {
+  font-size: var(--size-16);
+  font-weight: 200;
+  color: var(--color-Very-Dark-Cyan);
+}
+.heading-primary {
+  color: var(--color-Very-Dark-Cyan);
+}
+.btn-head:is(:link, :visited) {
+  padding: var(--size-12) var(--size-48);
+  background-color: var(--color-Pink);
+  display: inline-block;
+  border-radius: var(--size-32);
+  color: var(--color-white);
 }
