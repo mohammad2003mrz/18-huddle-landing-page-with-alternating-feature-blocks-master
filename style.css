@@ -59,3 +59,8 @@ header {
   grid-template-columns: repeat(2, var(--size-512));
   gap: var(--size-128);
 }
+.text-box-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-24);
+}
