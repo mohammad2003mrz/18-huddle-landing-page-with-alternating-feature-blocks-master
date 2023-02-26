@@ -96,7 +96,7 @@ header {
 }
 .heading-dis {
   font-size: var(--size-16);
-  font-weight: 200;
+  font-weight: 400;
   color: var(--color-Very-Dark-Cyan);
 }
 .heading-primary {
