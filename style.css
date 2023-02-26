@@ -109,3 +109,18 @@ header {
   border-radius: var(--size-32);
   color: var(--color-white);
 }
+/*  sectoin-1 */
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.img-1 {
+  width: 50%;
+}
+#fix-gap-s1 {
+  margin-left: var(--size-256);
+  gap: var(--size-175);
+}
