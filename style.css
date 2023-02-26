@@ -21,6 +21,7 @@
   --size-128: 12.8rem;
   --size-175: 17.5rem;
   --size-500: 50rem;
+  --size-512: 51.2rem;
   /*  color */
   --color-Pink: hsl(322, 100%, 66%);
   --color-Very-Pale-Cyan: hsl(193, 100%, 96%);
@@ -45,7 +46,16 @@ header {
   background-position: center;
   width: 100%;
   min-height: 95vh;
+  display: grid;
+  justify-content: center;
 }
 .img-head {
-  width: 100%;
+  width: var(--size-512);
+}
+.grid {
+  display: grid;
+}
+.grid-2-c {
+  grid-template-columns: repeat(2, var(--size-512));
+  gap: var(--size-128);
 }
