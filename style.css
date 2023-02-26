@@ -26,6 +26,7 @@
   --color-Pink: hsl(322, 100%, 66%);
   --color-Very-Pale-Cyan: hsl(41, 100%, 97%);
   --color-Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --color-black: hsl(0, 0%, 4%);
   --color-Grayish-Blue: hsl(208, 11%, 55%);
   /*  gen  */
 }
@@ -55,19 +56,22 @@ header {
   justify-content: center;
 }
 .img-head {
-  width: var(--size-512);
+  width: 100%;
 }
 .grid {
   display: grid;
 }
 .grid-2-c {
   grid-template-columns: repeat(2, var(--size-512));
-  gap: var(--size-128);
+  gap: var(--size-64);
+  justify-content: center;
+  align-items: center;
 }
 .text-box-header {
   display: flex;
   flex-direction: column;
-  gap: var(--size-24);
+  gap: var(--size-32);
+  width: 80%;
 }
 .logo-header {
   width: var(--size-128);
@@ -81,4 +85,6 @@ header {
   background-color: var(--color-Very-Pale-Cyan);
   box-shadow: 0 var(--size-6) var(--size-12) rgba(0, 0, 0, 0.15);
   border-radius: var(--size-32);
+  color: var(--color-black);
+  font-size: var(--size-16);
 }
