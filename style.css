@@ -224,3 +224,9 @@ a {
   border-radius: var(--size-32);
   color: var(--color-white);
 }
+li a {
+  color: var(--color-white);
+}
+li a:is(:hover, :active) {
+  text-decoration: underline;
+}
