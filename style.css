@@ -202,6 +202,11 @@ a {
   height: 24px;
 }
 .reg {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-32);
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   height: 220px;
   width: 700px;
@@ -211,4 +216,11 @@ a {
   top: 0;
   transform: translate(-50%, -50%);
   left: 50%;
+}
+.btn-reg:is(:link, :visited) {
+  padding: var(--size-12) var(--size-48);
+  background-color: var(--color-Pink);
+  display: inline-block;
+  border-radius: var(--size-32);
+  color: var(--color-white);
 }
