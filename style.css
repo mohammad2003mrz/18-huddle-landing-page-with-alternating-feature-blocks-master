@@ -33,7 +33,7 @@
   /*  gen  */
 }
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: var(--size-18);
 }
 html {
@@ -59,7 +59,6 @@ html {
   align-items: center;
 }
 header {
-  font-family: "Poppins", sans-serif;
   background-image: url(images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -173,7 +172,7 @@ footer {
   justify-content: center;
   display: grid;
   gap: var(--size-128);
-  grid-template-columns: 350px 150px 150px 100px;
+  grid-template-columns: 350px 150px 150px 150px;
 }
 .f-logo {
   width: var(--size-175);
@@ -182,6 +181,10 @@ footer {
   display: flex;
   flex-direction: column;
   gap: var(--size-24);
+}
+.f-b-4 {
+  display: flex;
+  gap: var(--size-16);
 }
 .f-f {
   display: flex;
@@ -198,6 +201,7 @@ a {
   display: flex;
   gap: var(--size-16);
   color: var(--color-white);
+  font-weight: 400;
 }
 .loc-icon {
   height: 24px;
@@ -230,4 +234,16 @@ li a {
 }
 li a:is(:hover, :active) {
   text-decoration: underline;
+}
+.icon-s {
+  fill: var(--color-white);
+}
+.icon-s:is(:hover, :active) {
+  fill: var(--color-Pink);
+}
+.copyright {
+  bottom: 10%;
+  right: 5%;
+  position: absolute;
+  color: var(--color-white);
 }
