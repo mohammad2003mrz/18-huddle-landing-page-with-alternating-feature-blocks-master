@@ -156,7 +156,7 @@ header {
 /*  footer  */
 footer {
   position: relative;
-  background-color: red;
+  background-color: var(--color-Very-Dark-Cyan);
   height: var(--size-400);
 }
 .footer {
@@ -164,11 +164,11 @@ footer {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   display: grid;
   gap: var(--size-128);
-  grid-template-columns: 350px 150px 50px 100px;
+  grid-template-columns: 350px 150px 150px 100px;
 }
 .f-logo {
   width: var(--size-175);
