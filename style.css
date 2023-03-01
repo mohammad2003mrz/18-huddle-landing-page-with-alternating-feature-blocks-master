@@ -197,6 +197,7 @@ a {
 .loc {
   display: flex;
   gap: var(--size-16);
+  color: var(--color-white);
 }
 .loc-icon {
   height: 24px;
